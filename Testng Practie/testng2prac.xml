@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+  <test name="Test2">
+  
+  <!-- <packages>
+  	<package name="TestNGDemo"/>
+  </packages> -->
+  
+   <classes>
+      <class name="TestNGDemo.TestNGAttributePassing">
+      
+      <methods>
+      	<exclude name = "m3" />
+      </methods>      
+   
+      </class>
+    </classes>
+   
+  </test> <!-- Test2 -->
+</suite> <!-- Suite2 -->
+
+      <!-- <class name="TestNGDemo.TestngParametersPractise"/>
+      <class name="TestNGDemo.ParametersTestNG"/>  -->
